@@ -1,11 +1,13 @@
-#Installation:
+# Installation:
 
 composer install
 
-#Run:
+# Run:
 
-Optimized:
+## Optimized:
+
 ./vendor/bin/phpunit --filter=CyclesTest::test_optimized_returns_correct_values
 
-Non-optimized:
+## Non-optimized:
+
 ./vendor/bin/phpunit --filter=CyclesTest::test_non_optimized_returns_correct_values
